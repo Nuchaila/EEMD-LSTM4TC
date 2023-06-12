@@ -19,7 +19,8 @@ from keras.callbacks import ModelCheckpoint
 from keras.layers import Dropout
 from keras.layers import Activation
 
-from scipy import interpolate, math
+from scipy import interpolate
+import math
 import matplotlib.pyplot as plt
 
 from keras import Input, Model
